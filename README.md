@@ -22,7 +22,7 @@ Now, run this application on your workstation with kubeconfig file provided in t
 ```
 ./deploynginx
 # or specify path for kubeconfig file with flag
-./deploynginx -kubeconfig=./.kube/config
+./deploynginx -kubeconfig=./kube/config
 
 #To update nginx version or to scale the pods, use below options
 ./deploynginx -version=1.13 -scale=3
